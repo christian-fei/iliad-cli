@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "iliad": "./bin/index.js"
+  },
   "scripts": {
     "test": "m.test index.test.js"
   },
