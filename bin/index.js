@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 const {login, formatFor} = require('..')
 async function main ({username, password} = {}, next) {
-  if (!username) return console.log('⛔️ missing username')
-  if (!password) return console.log('⛔️ missing password')
+  if (!username) return console.log('⛔️  missing username')
+  if (!password) return console.log('⛔️  missing password')
 
   return login({username, password})
   .then(next)
