@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const {login, formatFor} = require('..')
 async function main ({username, password} = {}, next) {
   if (!username) throw new Error('missing username')
